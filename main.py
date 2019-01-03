@@ -1,4 +1,6 @@
 
+import json
+
 # there should be at least 2 lines of comments
 # another useless comment
 
@@ -44,5 +46,6 @@ if __name__ == '__main__':
     else:
         print("Thank you!")
 
-
+with open('output', 'w') as f:
+    json.dumps([1, 'simple', 'list'])
 
