@@ -1,6 +1,6 @@
 
 # there should be at least 2 lines of comments
-# another useless comment
+# another useless comment...
 
 def draw_text_rectangle(width, height):
     if type(width) != int or type(height) != int:
